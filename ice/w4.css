@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One&family=Prompt:ital,wght@1,700&display=swap');
 :root{
     --bg-color: pink;
     --primary-font: #000;
@@ -7,6 +8,7 @@
 
 body{
     background-color: var(--bg-color);
+    font-family: "padyakke", "prompt", "serif","arial";
 
 }
 
@@ -18,6 +20,7 @@ main{
 h1{
     color: var(--secondary-font-color);
     text-align: center;
+    
 }
 img{
     max-width: 100%;
