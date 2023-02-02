@@ -1,0 +1,26 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+header{
+    background-image: url(images/circles.jpg);
+    background-size:contain;
+    background-color:pink;
+    height: 80%;
+
+}
+main{
+    background-color: #737373;
+    height: 40%;
+    text-align: center;
+    padding: 20px;
+}
+img{
+    max-height: 180px;
+    display: inline-block;
+    border-radius: 50%;
+    border: 7px solid;
+    margin: 15px 45px;
+
+}
