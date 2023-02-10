@@ -1,0 +1,44 @@
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+}
+.cherries-box{
+    grid-column: 1;
+    grid: 1/3;
+    background-image: url(/ice/images/cherries.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.grey-box{
+    grid-column: 2;
+    grid-row: 1/3;
+    background-color: gray;
+}
+.text-top{
+    grid-column: 1/3;
+    grid-row: 1;
+    text-align: center;
+    font-size: 200px;
+    font-weight: bold;
+}
+.text-top p {
+    margin: 150px 0 0 0;
+}
+.text-bottom{
+    grid-column: 2;
+    grid-row: 2;
+    text-align: center;
+    font-size: 75px;
+    font-weight: bold;
+    color: red;
+}
+.text-bottom p {
+margin: 150px 0 0 0;
+}
