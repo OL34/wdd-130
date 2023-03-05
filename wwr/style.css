@@ -169,7 +169,7 @@ footer a{
 footer a:hover{
     color: #ffffff;
 }
-.home-title{
+#home-title{
     color:#7D787C;
     font-family: "indie-flower","arial";
     font-size: 2em;
@@ -214,6 +214,56 @@ footer .social img{
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
+ 
+/* Rivers Page */
+#rivers-content{
+    max-width:1600px;
+    margin:0 auto;
+}
+.rivers-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr  ;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    } 
+
+#rivers-title{
+text-align: center;
+font-family: "indie flower", "arial";
+color:#046578 ;
+font-size: 40px;
+}
+.text-idaho, .text-utah, .text-arizona{
+    color: #ffffff;
+    font-family: "indie flower";
+    text-align: center;
+    background-color:#046578 ;
+    background-size: auto;
+    }
+.text-idaho{
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.text-utah{
+grid-column-start:2 ;
+grid-column-end: 3;
+grid-row-start: 4;
+grid-row-end:5 ;
+}
+.text-arizona{
+grid-column-start:2 ;
+grid-column-end: 3;
+grid-row-start: 5;
+grid-row-end:6 ;
+}
+
+h3{
+    color: #ead7a4;
+    font-family:"comfortaa";
+    font-size: 35px;
+}
+
 @media screen and (max-width:900px) {
     #hero, .home-grid {
         display: block;
