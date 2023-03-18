@@ -37,8 +37,10 @@ h1{
     color:#F6D180 ;
     font-family: mali;
     background-color: #46B1C9 ;
+    background-position: center;
     font-size: 70px;
-    margin-left: 200px;
+   
+    
 }
 h4{
     color: #F41588;
