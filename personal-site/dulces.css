@@ -17,6 +17,97 @@ body{
 main{
     text-align: center;
 }
+.home-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ;
+}
+
+.mazapan-card{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2 ;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.dulce-card{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.cocada-card{
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:2 ;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.ate-card{
+    grid-column-start:1;
+    grid-column-end:2 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.borrachitos-card{
+    grid-column-start: 3;
+    grid-column-end:4 ;
+    grid-row-start: 2;
+    grid-row-end:3 ;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+.obleas-card{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 200px;
+    margin-left: 20px;
+}
+
+
+.flip-card{
+    background-color: transparent;
+    width: 500px;
+    height: 500px ;
+    border: 3px solid #F41588;
+    perspective: 1000px;
+}
+.flip-card-inner{
+    position:relative ;
+    width: 100%;
+    height: 100%;
+    text-align: center ;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-card:hover .flip-card-inner{
+    transform: rotateY(180deg);
+}
+.flip-card-front, .flip-card-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.flip-card-front{
+    background-color: #F41588;
+    color: white;
+}
+.flip-card-back{
+    background-color:#46B1C9 ;
+    color:white ;
+    transform: rotateY(180deg);
+}
+
 #main-pic{
     width: 100%
 }
@@ -25,12 +116,19 @@ nav{
     justify-content: space-around;
 }
 
+
 nav a{
     color:#46B1C9 ;
     margin-left: 10%;
     font-size: 30px;
     font-family: pangolin ; 
 
+}
+p{
+    color: #F6D180;
+    text-align: center;
+    font-family:pangolin ;
+    font-size: 20px;
 }
 h1{
     text-align: center;
@@ -39,8 +137,7 @@ h1{
     background-color: #46B1C9 ;
     background-position: center;
     font-size: 70px;
-   
-    
+       
 }
 h4{
     color: #F41588;
@@ -50,9 +147,14 @@ h4{
 
 }
 h2{
-    color:#F41588 ;
+    color:#F41588;
     font-family: mali;
-    font-size: 40px;
+    font-size: 50px;
+}
+h3{
+    color: #F6D180;
+    font-size: 50px;
+    font-family: pangolin;
 }
 footer{
     background-color: #46B1C9;
