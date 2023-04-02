@@ -28,7 +28,7 @@ main{
     grid-column-end: 2;
     grid-row-start: 1;
     grid-row-end:2 ;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 20px;
 }
 .dulce-card{
@@ -36,7 +36,7 @@ main{
     grid-column-end: 4;
     grid-row-start:1 ;
     grid-row-end: 2;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 20px;
 }
 .cocada-card{
@@ -44,7 +44,7 @@ main{
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end:2 ;
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 20px;
 }
 .ate-card{
@@ -52,7 +52,7 @@ main{
     grid-column-end:2 ;
     grid-row-start: 2;
     grid-row-end: 3;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 20px;
 }
 .borrachitos-card{
@@ -60,7 +60,7 @@ main{
     grid-column-end:4 ;
     grid-row-start: 2;
     grid-row-end:3 ;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 20px;
 }
 .obleas-card{
@@ -68,10 +68,70 @@ main{
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
-    margin-top: 200px;
+    margin-top: 100px;
     margin-left: 20px;
 }
+.other-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr ; 
+}
 
+.pulparindo-card{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end:2 ;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+.pelon-card{
+    grid-column-start:2 ;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end:2 ;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+
+.picafresa-card{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start:1 ;
+    grid-row-end: 2;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.bubulubu-card{
+    grid-column-start:1;
+    grid-column-end:2 ;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.carlosv-card{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 50px;
+    margin-left: 20px;
+
+}
+.rebanaditas-card{
+    grid-column-start: 3;
+    grid-column-end:4 ;
+    grid-row-start: 2;
+    grid-row-end:3 ;
+    margin-top: 50px;
+    margin-left: 20px;
+}
 
 .flip-card{
     background-color: transparent;
@@ -80,6 +140,7 @@ main{
     border: 3px solid #F41588;
     perspective: 1000px;
 }
+
 .flip-card-inner{
     position:relative ;
     width: 100%;
@@ -111,6 +172,37 @@ main{
 #main-pic{
     width: 100%
 }
+#contact-pic{
+    margin-top: 80px;
+}
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px;  
+    border: 1px solid #46B1C9; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=submit] {
+    background-color: #F41588;
+    color: #46B1C9;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type=submit]:hover {
+    background-color: #F41588;
+  }
+  .container {
+    border-radius: 5px;
+    background-color: #46B1C9;
+    padding: 20px;
+  }
+
 nav{
     display: flex;
     justify-content: space-around;
